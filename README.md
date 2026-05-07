@@ -1,6 +1,6 @@
 # MoZ Consulting Static Site
 
-Static export of `https://mozconsulting.tech` prepared for local development and later GitHub Pages deployment.
+Static export of `/moz-consulting-website` prepared for local development and later GitHub Pages deployment.
 
 ## Local Preview
 
