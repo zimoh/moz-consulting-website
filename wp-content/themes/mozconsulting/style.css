@@ -1,0 +1,46 @@
+/*!
+Theme Name: mozconsulting
+Theme URI: http://underscores.me/
+Author: YVD
+Author URI: https://wordpress.org/
+Description: Custom WordPress Theme
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: moz
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+mozconsulting is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+
+.paging-navigation { margin: 20px 0; text-align: center;}
+a.page-numbers,span.page-numbers {padding: .3em .7em; margin: 0 2px; color: hsl(0, 0%, 20%); background: #f1f1f1;}
+.paging-navigation .current  {color: #fff; background: #000;}
+
+#notfound { position: relative; height: 100vh; }
+#notfound .notfound {position: absolute;left: 50%;top: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
+.notfound { max-width: 560px; width: 100%; padding-left: 160px; line-height: 1.1;}
+.notfound .notfound-404 {position: absolute;left: 0;top: 0; display: inline-block; width: 140px; height: 140px; background-image: url('./img/emoji.png'); background-size: cover;}
+.notfound .notfound-404:before { content: ''; position: absolute; width: 100%; height: 100%; -webkit-transform: scale(2.4); -ms-transform: scale(2.4); transform: scale(2.4);
+  border-radius: 50%; background-color: #f2f5f8; z-index: -1; }
+.notfound h1 { font-size: 65px; font-weight: 700; line-height: 1.1; margin-top: 0px; margin-bottom: 10px; color: #151723;text-transform: uppercase;}
+.notfound h2 { font-size: 21px; font-weight: 400; margin: 0; text-transform: uppercase; color: #151723; }
+
+.SiteMenu ul .menu-item.whiteText a {
+    color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+  .notfound .notfound-404 { width: 110px; height: 110px; }
+  .notfound { padding-left: 15px; padding-right: 15px; padding-top: 110px;}
+}
